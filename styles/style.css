@@ -215,7 +215,8 @@ body.no-scroll {
 }
 
 .hero__container {
-
+  width: auto;
+  height: 211px;
   position: relative;
 }
 
