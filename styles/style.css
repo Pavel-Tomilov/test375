@@ -21,7 +21,6 @@ img {
 body {
   font-family: 'PF Din Text Comp Pro', sans-serif;
   overflow-x: hidden;
-  overflow-y: hidden;
   width: 100%;
   position: relative;
 }
@@ -140,7 +139,6 @@ body.no-scroll {
   margin-right: 24px;
 }
 
-/* Стили для бургер-кнопки */
 .burger {
   position: relative;
   top: 0;
@@ -236,9 +234,6 @@ body.no-scroll {
   clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
-
-
-
 .about {
   background-color: #F4F4F2;
   padding-top: 40px;
@@ -316,8 +311,6 @@ body.no-scroll {
   text-align: left;
 }
 
-
-
 .title-top {
   margin: 0;
   color: rgb(49, 19, 17);
@@ -328,8 +321,6 @@ body.no-scroll {
   text-transform: uppercase;
   margin-bottom: 16px;
 }
-
-
 
 .about__bottom-right {
   position: relative;
@@ -353,7 +344,6 @@ body.no-scroll {
   bottom: 0;
   right: 0;
 }
-
 
 .sn {
   padding-top: 80px;
@@ -383,7 +373,6 @@ body.no-scroll {
   right: 0;
 }
 
-
 .sn__title {
   margin: 0;
   color: rgb(255, 255, 255);
@@ -403,7 +392,6 @@ body.no-scroll {
   line-height: 24px;
   text-align: left;
 }
-
 
 .projects {
   padding-bottom: 80px;
