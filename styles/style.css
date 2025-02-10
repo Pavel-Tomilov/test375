@@ -100,12 +100,12 @@ body.no-scroll {
   border-radius: 4px;
   background: rgb(49, 19, 17);
   color: rgb(255, 255, 255);
-font-size: 12px;
-font-weight: 400;
-line-height: 14px;
-text-align: left;
-text-transform: uppercase;
-margin-right: 22px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-right: 22px;
 }
 
 .nav__list {
@@ -176,9 +176,11 @@ margin-right: 22px;
 .header.open .burger__line:nth-child(1) {
   transform: translateY(13px) rotate(45deg);
 }
+
 .header.open .burger__line:nth-child(2) {
-  opacity: 0; /* Прячем среднюю линию */
+  opacity: 0;
 }
+
 .header.open .burger__line:nth-child(3) {
   transform: translateY(-13px) rotate(-45deg);
 }
@@ -193,7 +195,7 @@ margin-right: 22px;
   height: 168px;
   background: #333;
   padding-top: 5px;
-z-index: 1;
+  z-index: 1;
 }
 
 .menu__link {
@@ -205,7 +207,7 @@ z-index: 1;
 }
 
 .header.open .menu {
- display: block;
+  display: block;
 }
 
 .hero {
@@ -213,22 +215,21 @@ z-index: 1;
 }
 
 .hero__container {
-  height: 211px;
+
   position: relative;
 }
 
 .hero-btn {
   position: absolute;
-  /* RED/main */
-background: rgb(178, 31, 36);
+  background: rgb(178, 31, 36);
   color: rgb(255, 255, 255);
   bottom: 0;
   right: 0;
-font-size: 12px;
-font-weight: 500;
-line-height: 14px;
-text-align: left;
-text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  text-transform: uppercase;
   padding: 14px 45px;
   clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
@@ -273,13 +274,13 @@ text-transform: uppercase;
 .about-btn-top {
   position: absolute;
   color: rgb(255, 255, 255);
-font-size: 12px;
-font-weight: 500;
-line-height: 14px;
-text-align: center;
-text-transform: uppercase;
- /* RED/main */
-background: rgb(178, 31, 36);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  /* RED/main */
+  background: rgb(178, 31, 36);
   clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 0% 100%);
   /* z-index: 1; */
   padding: 18px 51px 18px 63px;
@@ -301,7 +302,7 @@ background: rgb(178, 31, 36);
 .about-image {
   width: 100%;
   height: 100%;
-  
+
 }
 
 .text-top {
@@ -337,13 +338,13 @@ background: rgb(178, 31, 36);
 .about-btn-bottom {
   position: absolute;
   color: rgb(255, 255, 255);
-font-size: 12px;
-font-weight: 500;
-line-height: 14px;
-text-align: center;
-text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
   /* RED/main */
-background: rgb(178, 31, 36);
+  background: rgb(178, 31, 36);
   clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 0% 100%);
   /* z-index: 1; */
   padding: 18px 51px 18px 63px;
@@ -376,7 +377,7 @@ background: rgb(178, 31, 36);
   text-align: center;
   text-transform: uppercase;
   padding: 17px 37px 18px 73px;
-    bottom: 0;
+  bottom: 0;
   right: 0;
 }
 
@@ -384,12 +385,12 @@ background: rgb(178, 31, 36);
 .sn__title {
   margin: 0;
   color: rgb(255, 255, 255);
-font-size: 47px;
-font-weight: 500;
-line-height: 56px;
-text-align: left;
-text-transform: uppercase;
-margin-bottom: 24px;
+  font-size: 47px;
+  font-weight: 500;
+  line-height: 56px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 24px;
 }
 
 .sn__text {
@@ -430,21 +431,21 @@ margin-bottom: 24px;
 }
 
 .projects__btn {
-background: rgb(178, 31, 36);
+  background: rgb(178, 31, 36);
   padding: 13px 8px;
   transform: skewX(-15deg);
   margin-left: 10px;
   color: rgb(255, 255, 255);
-font-size: 12px;
-font-weight: 500;
-line-height: 14px;
-text-align: left;
-text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .btn-text {
   display: inline-block;
- 
+
   transform: skewX(15deg);
 }
 
@@ -467,11 +468,11 @@ text-transform: uppercase;
 hr {
   margin: 0;
   background: linear-gradient(rgb(235, 232, 229), rgb(211, 200, 187));
-width: auto;
+  width: auto;
 }
 
 .footer__nav {
-  
+
   gap: 60px;
   margin-bottom: 86px;
 }
@@ -516,11 +517,11 @@ width: auto;
 .addres-text {
   width: auto;
   color: rgb(49, 19, 17);
-font-size: 20px;
-font-weight: 400;
-line-height: 126.18%;
-text-align: left;
-margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 126.18%;
+  text-align: left;
+  margin: 0;
 }
 
 .svg-addres {
@@ -623,21 +624,21 @@ margin: 0;
 
 .footer__item-center {
   color: rgb(170, 146, 122);
-font-size: 16px;
-font-weight: 400;
-line-height: 126.18%;
-text-align: left;
-margin-bottom: 3px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 126.18%;
+  text-align: left;
+  margin-bottom: 3px;
 
 }
 
 .footer__item-right {
   color: rgb(170, 146, 122);
-font-size: 16px;
-font-weight: 400;
-line-height: 126.18%;
-text-align: left;
-margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 126.18%;
+  text-align: left;
+  margin-bottom: 4px;
 }
 
 .min-title-right {
@@ -649,19 +650,19 @@ margin-bottom: 4px;
   text-transform: uppercase;
   margin: 0;
   margin-top: 22px;
-  margin-bottom: 12px;  
+  margin-bottom: 12px;
 }
 
 .min-title-center {
   color: rgb(49, 19, 17);
-font-size: 14px;
-font-weight: 500;
-line-height: 17px;
-text-align: left;
-text-transform: uppercase;
-margin: 0;
-margin-top: 22px;
-margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 22px;
+  margin-bottom: 12px;
 }
 
 .text-bot {
