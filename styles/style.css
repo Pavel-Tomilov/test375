@@ -21,6 +21,7 @@ img {
 body {
   font-family: 'PF Din Text Comp Pro', sans-serif;
   overflow-x: hidden;
+  overflow-y: hidden;
   width: 100%;
   position: relative;
 }
