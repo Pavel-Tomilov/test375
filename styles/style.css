@@ -692,7 +692,8 @@ hr {
 .modal-form {
   background: #fff;
   padding: 40px;
-  width: 596px;
+  padding-top: 75px;
+  width: auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   position: relative;
 }
