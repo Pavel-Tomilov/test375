@@ -216,6 +216,7 @@ body.no-scroll {
 }
 
 .hero__container {
+  aspect-ratio: 16 / 9;
   width: auto;
   height: 211px;
   position: relative;
@@ -693,6 +694,7 @@ hr {
   background: #fff;
   padding: 40px;
   padding-top: 75px;
+  padding-bottom: 75px;
   width: auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   position: relative;
@@ -752,7 +754,7 @@ label {
 
 .close-btn {
   position: absolute;
-  top: 50px;
+  top: 125px;
   right: 25px;
 }
 
