@@ -216,7 +216,6 @@ body.no-scroll {
 }
 
 .hero__container {
-  aspect-ratio: 16 / 9;
   width: auto;
   height: 211px;
   position: relative;
